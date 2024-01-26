@@ -1,0 +1,53 @@
+body{
+    background-color: cadetblue;
+    padding: 1rem;
+}
+p{
+    background-color: rgb(255, 240, 244);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+border-collapse: collapse;
+width: 100% ;
+}
+
+ul{
+border: 1px solid #000;
+border-collapse: collapse;
+display: flex;  
+justify-content: left;
+align-items: left;
+padding: 3px;
+
+}
+.bar{
+    display: flex;
+	border:2px #000;
+	border-collapse: collapse;
+}
+.content {
+	display: flex;
+	gap: 50px;
+}
+
+.content .main {
+	width: 75%;
+}
+
+.content .left {
+	width: 25%;
+}
+
+section {
+	background: #fff;
+	padding: 16px;
+}
+
+section img {
+	display: block;
+	width: 90%;
+	height: auto;
+}
